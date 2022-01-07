@@ -58,7 +58,7 @@ reduceBtn.forEach(function (btn,index) {
 })
 itemNumInput.forEach(function (input, index) {
     input.addEventListener("change", function () {
-        if (input.value <= 1) {
+        if (input.value < 1) {
             let yes = confirm('是否確定要刪除該商品')
             if (yes) {
                 orderItem[index].remove();

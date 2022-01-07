@@ -1,0 +1,11 @@
+.container{
+    form{
+        padding: 50px;
+        background-color: lightgray;
+        .row{
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+    }
+}

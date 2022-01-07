@@ -1,0 +1,14 @@
+form div:nth-child(2n+1) {
+  background-color: skyblue;
+  font-size: 22px;
+}
+
+form div:nth-child(2n) {
+  font-size: 18px;
+}
+
+form div:last-child {
+  font-size: 18px;
+  background-color: #fff;
+}
+/*# sourceMappingURL=user-look.css.map */
